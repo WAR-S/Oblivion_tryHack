@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MinHook\src\buffer.c">
+      <Filter>MHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\hook.c">
+      <Filter>MHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\trampoline.c">
+      <Filter>MHook\src</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde32.c">
+      <Filter>MHook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="MinHook\src\HDE\hde64.c">
+      <Filter>MHook\src\HDE</Filter>
+    </ClCompile>
+    <ClCompile Include="cRender\cRender.cpp">
+      <Filter>cRender</Filter>
+    </ClCompile>
+    <ClCompile Include="cMenu.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MHook">
+      <UniqueIdentifier>{27db7710-fd1c-4de6-b985-cc483bfabf1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MHook\src">
+      <UniqueIdentifier>{11c36d4c-d75f-4e40-9a15-60adec1fee74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MHook\src\HDE">
+      <UniqueIdentifier>{d0482020-bf10-4096-a95f-7563a2e45cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cRender">
+      <UniqueIdentifier>{cbe56300-23f8-4d8a-8ea2-6670621d3521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinHook\src\buffer.h">
+      <Filter>MHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\trampoline.h">
+      <Filter>MHook\src</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\MinHook.h">
+      <Filter>MHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde32.h">
+      <Filter>MHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\hde64.h">
+      <Filter>MHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\pstdint.h">
+      <Filter>MHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table32.h">
+      <Filter>MHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\src\HDE\table64.h">
+      <Filter>MHook\src\HDE</Filter>
+    </ClInclude>
+    <ClInclude Include="cInclude.h" />
+    <ClInclude Include="MinHook\include\cHookContext.h">
+      <Filter>MHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\cVmt.h">
+      <Filter>MHook</Filter>
+    </ClInclude>
+    <ClInclude Include="MinHook\include\cDetour.h">
+      <Filter>MHook</Filter>
+    </ClInclude>
+    <ClInclude Include="cRender\Color.h">
+      <Filter>cRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cRender\cRender.h">
+      <Filter>cRender</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenu.h" />
+  </ItemGroup>
+</Project>
