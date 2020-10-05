@@ -1,0 +1,7 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Release\) содержит файлы, которые используются совместно с другим проектом (GUI DX v.2017.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  cMenu.cpp
+  main.cpp
+  Создание кода
+  All 121 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  GUI DX v.2017.vcxproj -> C:\Users\sqrtb\Desktop\Visual\u\Release\frm.dll
